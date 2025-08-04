@@ -1,20 +1,18 @@
-.github
-.DS_Store
-docs
-kubernetes
+# Node- und Python-Caches, Repo-Junk
 node_modules
-/.svelte-kit
-/package
-.env
-.env.*
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-__pycache__
-.idea
-venv
-_old
-uploads
-.ipynb_checkpoints
-**/*.db
-_test
-backend/data/*
+backend/data
+**/__pycache__
+*.db
+.env*
+.DS_Store
+
+# Tests, Dokumentation, CI-Konfigs
+cypress/
+test/
+docs/
+kubernetes/
+scripts/
+.vscode/
+.idea/
+.git/
+.gitignore
