@@ -1,20 +1,45 @@
+# Git & CI
+.git
 .github
+.gitignore
+
+# macOS
 .DS_Store
-docs
-kubernetes
+
+# Node & Svelte
 node_modules
-/.svelte-kit
 /package
+/.svelte-kit
+
+# Environment
 .env
 .env.*
+
+# Vite temp files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Python
 __pycache__
-.idea
+*.py[cod]
 venv
-_old
-uploads
-.ipynb_checkpoints
+
+# IDE & Editor
+.idea
+
+# Logs
+*.log
+npm-debug.log
+
+# Datenbanken & Checkpoints
 **/*.db
-_test
+.ipynb_checkpoints
+
+# Builds, Docs & Uploads
+docs
+kubernetes
+build
 backend/data/*
+uploads
+_old
+_test
